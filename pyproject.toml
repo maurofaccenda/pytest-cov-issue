@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+minversion = '6.0'
+addopts = '--quiet --cov'
+
+[tool.coverage.run]
+source = ['my_module']
+
+[tool.coverage.report]
+fail_under = 90
